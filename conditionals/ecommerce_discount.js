@@ -1,12 +1,12 @@
 console.log("\ne-commerce discount calculation: ");
 
-let payAmt=100;
-
+let payAmt=700;
+let newPayAmt;
 if(payAmt>500){
-   let newPayAmt= payAmt-((payAmt*20)/100);
- console.log("\nyou got 20% discount.so you have to pay= ", newPayAmt);
+   newPayAmt= payAmt-((payAmt*20)/100);
+ console.log("you got 20% discount.so you have to pay= ", newPayAmt);
 }else if(payAmt>=200 && payAmt<=500){
-    let newPayAmt= payAmt-((payAmt*10)/100);
+    newPayAmt= payAmt-((payAmt*10)/100);
     console.log("you got 10% discount.so you have to pay= ", newPayAmt);
 }
 else{
